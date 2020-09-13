@@ -1,0 +1,42 @@
+.services {
+  /*width: 100%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.services__header {
+  text-align: center;
+}
+
+.services__info {
+  margin-top: -5px;
+  /*width: 100%;*/
+  font-size: 12px;
+  text-align: center;
+  /*max-width: 800px;*/
+}
+
+.services__box {
+  /*width: 100% !important;*/
+  height: 75px;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.services__icons {
+  display: flex;
+  margin-top: 10px;
+  color: white;
+}
+
+.services__iconss {
+  height: 22px !important;
+  padding: 5px;
+}
+.services__icons > p {
+  margin-top: 10px;
+  font-size: 12px;
+}

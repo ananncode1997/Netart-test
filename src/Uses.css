@@ -1,0 +1,34 @@
+.uses {
+  /*width: 100%;*/
+  /*max-width: 1200px;*/
+}
+.uses__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.uses__info__header {
+}
+.uses__info > img {
+  /*width: 100%;*/
+  object-fit: contain !important;
+  max-width: 750px;
+}
+
+.uses__info > p {
+  font-size: 12px;
+}
+
+.uses__para {
+  font-size: 14px;
+  text-align: center;
+}
+
+.hor__line {
+  /*width: 100%;*/
+  height: 1px;
+  background-color: red;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}

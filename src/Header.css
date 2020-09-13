@@ -1,0 +1,11 @@
+.header {
+  z-index: 50;
+  top: 0;
+  /*width: 100%;*/
+  text-align: center;
+}
+
+.header > img {
+  width: 250px;
+  object-fit: contain;
+}
